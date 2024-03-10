@@ -1,0 +1,178 @@
+(footprint "USB_A_PCB_Edge_receptacle"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "USB type A Plug, Horizontal, http://cnctech.us/pdfs/1001-011-01101.pdf")
+	(tags "USB-A")
+	(property "Reference" "REF**"
+		(at 6.53 -3.38 0)
+		(layer "F.SilkS")
+		(uuid "f942482d-04a5-4a5b-afae-e1ec1f709a1e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USB_A_PCB_Edge_receptacle"
+		(at 15.1 -1.64 180)
+		(layer "F.Fab")
+		(uuid "98e60d0a-a5aa-472f-92d1-057846077a29")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 40.985 0.22 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f209d43-8479-495d-bdd9-fabaf259197c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 40.985 0.22 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39bfa0a6-4ee9-45bf-9a15-c1c76df7cff2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 40.985 0.22 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ccc2086-b507-49ff-8378-48539c30e31c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5 -5.2)
+		(end -5 5.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "daeb5c9a-795d-4e76-96b2-3f43b0c508af")
+	)
+	(fp_line
+		(start -5 -5.2)
+		(end -4.2 -6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f750f43b-ef93-4205-83fb-b2ce678c6a66")
+	)
+	(fp_line
+		(start -5 5.2)
+		(end -4.2 6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "635d7114-f303-46a9-a62e-b0eb416516c0")
+	)
+	(fp_line
+		(start 9 -6)
+		(end -4.2 -6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ae8adb44-085c-4518-91d3-ed466714cd1e")
+	)
+	(fp_line
+		(start 9 6)
+		(end -4.2 6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3d40737e-8791-44eb-a6d5-1567d54401bb")
+	)
+	(fp_rect
+		(start 4 -4.5)
+		(end 9 4.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "cc68765a-0fad-4c4f-b574-575f001b2a12")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 9.840001 0.099999 180)
+		(layer "F.Fab")
+		(uuid "94ab62fa-ae4f-4f22-be67-7c91daacb203")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 3.75)
+		(size 7 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "48d0977e-3b97-407f-a283-e4b3b06b2fd7")
+	)
+	(pad "2" smd roundrect
+		(at 0 1)
+		(size 6 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
+		(uuid "8b213e89-408e-4122-8b31-20b0412e30bb")
+	)
+	(pad "3" smd roundrect
+		(at 0 -1)
+		(size 6 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
+		(uuid "9ddb8242-7353-4b01-ab9c-de18f4fa0318")
+	)
+	(pad "4" smd roundrect
+		(at 0 -3.75)
+		(size 7 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "a9e365c4-9396-41bc-a044-b1c488c9fd62")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_CNCTech_1001-011-01101_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,4 +1,4 @@
-# PCB-USB-connector-KiCad-library
+# PCB-Edge-USB-connector-KiCad-library
 KiCad library for a bunch of PCB USB connectors:
 
 - USB type C edge connector - include all 24 pins, no shield - use 0.6mm board thickness

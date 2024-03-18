@@ -216,31 +216,31 @@
 	(pad "1" smd rect
 		(at 0 1.3 90)
 		(size 0.35 2.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(uuid "f2984208-5786-42e7-be51-91297d8780ea")
 	)
 	(pad "2" smd rect
 		(at 0 0.65 90)
 		(size 0.35 2.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(uuid "27cad2ec-3334-4738-927c-44da42b3906e")
 	)
 	(pad "3" smd rect
 		(at 0 0 90)
 		(size 0.35 2.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(uuid "38846792-d511-4f79-a2cc-ad6d9dfb19d8")
 	)
 	(pad "4" smd rect
 		(at 0 -0.65 90)
 		(size 0.35 2.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(uuid "91392a5f-3bc5-4724-af1b-cfa378cd6883")
 	)
 	(pad "5" smd rect
 		(at 0 -1.3 90)
 		(size 0.35 2.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(uuid "29cde39e-7611-4bc0-a10d-a52cf2911378")
 	)
 	(model "${KICAD6_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Micro-B_Molex_47346-0001.wrl"
